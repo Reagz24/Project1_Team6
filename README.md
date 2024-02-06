@@ -1,6 +1,8 @@
 # The Ultimate-ish Movie Review
 Project Goal: To use movie data from preexisting spreadsheets, as well as the OMDB API to uncover trends across films and their gross earnings.
 
+Presentation link: https://www.canva.com/design/DAF72djNhVM/6PJpzmf1XFdqiOZkENgxPQ/edit?utm_content=DAF72djNhVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
 ## Project Questions
 1. Do ratings corrrelate to the total revenue that a film earns?
     Intent: Compare ratings from IMBD, Metacritic, and Rotten Tomatoes to assess if there are is a correlating between ratings and the amount of gross earnings for the films.
