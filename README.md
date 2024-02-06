@@ -18,3 +18,9 @@ Project Goal: To use movie data from preexisting spreadsheets, as well as the OM
 3. Movie Metadata csv file, downloaded from Kaggle: https://www.kaggle.com/datasets/karrrimba/movie-metadatacsv
 - file entitled movie_metadata.csv
 - file not used as movie titles were formatted in a way that it led to duplicating over 4000 films within the data set
+
+## Project Findings
+1. Do ratings corrrelate to the total revenue that a film earns?
+- The IMDb 5000+ Movies file contained IMDb scores, while the Top 1000 films file contained Metascore ratings.  Additional Metascore ratings, and Rotten Tomatoes data was not able to the pulled due to persistent connection issues when using the OMDB API.
+- The dataset was trimmed down to the movies with both IMDb and Metascore ratings to ensure consistency.
+- Neither IMDB ratings nor Metascore ratings correlated strongly to gross revenue earnings, with r-values of .28 and .27, respectively. There was little difference between IMDB and Metascore ratings for the same set of films, illustrating that neither system’s methodology was more accurate in predicting the financial success of a film, as IMDB allows user-ratings to dictate the score and Metascore relies solely upon the weighted average of industry critic experts. While a weak correlation, IMDB ultimately produced a slightly higher r-value. 
