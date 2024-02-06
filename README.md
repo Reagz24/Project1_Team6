@@ -8,7 +8,7 @@ Presentation link: https://www.canva.com/design/DAF72djNhVM/6PJpzmf1XFdqiOZkENgx
     Intent: Compare ratings from IMBD, Metacritic, and Rotten Tomatoes to assess if there are is a correlating between ratings and the amount of gross earnings for the films.
 2. Do certain actors and directors generate higher grossing films?
     Intent: Look at the per film average gross earings and total gross earnings by actor and director.
-3. Are their more advantageous times to release a film to general higher earnings?
+3. Are there more advantageous times to release a film to general higher earnings?
     Intent: Compare release dates for films and see if there are trends regarding box office performance based on release year, release month, and calendar season.
 
 ## Project Resources in the Resource folder
